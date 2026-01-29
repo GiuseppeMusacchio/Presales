@@ -1,453 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- ===================== -->
+  <!-- BASIC SEO META TAGS -->
+  <!-- ===================== -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Giuseppe Musacchio | AI-Powered CPG Solutions Leader</title>
-  <meta name="description" content="Transforming CPG enterprises with AI-driven RGM, TPM and Retail Execution solutions." />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Presales Leader for CPG | AI, RGM & TPM Solutions – Giuseppe Musacchio</title>
+
+  <meta name="description" content="Senior Presales Leader specializing in AI-driven Revenue Growth Management (RGM), Trade Promotion Management (TPM) and Retail Execution software for global CPG enterprises." />
+
+  <meta name="keywords" content="Presales Leader, Presales Manager, CPG Presales, AI Presales, Revenue Growth Management, RGM software, Trade Promotion Management, TPM software, Retail Execution, CPG AI solutions, FMCG software presales" />
+
+  <meta name="author" content="Giuseppe Musacchio" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- ===================== -->
+  <!-- OPEN GRAPH (LinkedIn, WhatsApp) -->
+  <!-- ===================== -->
+  <meta property="og:title" content="Presales Leader for CPG | AI, RGM & TPM – Giuseppe Musacchio" />
+  <meta property="og:description" content="Transforming CPG enterprises with AI-driven RGM, TPM and Retail Execution solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://giuseppemusacchio.github.io/Presales/" />
+  <meta property="og:image" content="https://giuseppemusacchio.github.io/Presales/profile.jpg" />
+
+  <!-- ===================== -->
+  <!-- TWITTER CARD -->
+  <!-- ===================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Presales Leader for CPG | AI, RGM & TPM" />
+  <meta name="twitter:description" content="Senior Presales Leader driving AI-powered RGM and TPM solutions for CPG companies." />
+
+  <!-- ===================== -->
+  <!-- STRUCTURED DATA (VERY IMPORTANT) -->
+  <!-- ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Giuseppe Musacchio",
+    "jobTitle": "Presales Leader",
+    "description": "Senior Presales Leader specializing in AI-driven Revenue Growth Management (RGM), Trade Promotion Management (TPM), and Retail Execution software for CPG enterprises.",
+    "url": "https://giuseppemusacchio.github.io/Presales/",
+    "sameAs": [
+      "https://www.linkedin.com/in/YOUR-LINKEDIN-URL"
+    ],
+    "knowsAbout": [
+      "Presales",
+      "Artificial Intelligence",
+      "CPG",
+      "Revenue Growth Management",
+      "Trade Promotion Management",
+      "Retail Execution"
+    ]
+  }
+  </script>
+
+  <!-- ===================== -->
+  <!-- FONTS -->
+  <!-- ===================== -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- ===================== -->
+  <!-- STYLES -->
+  <!-- ===================== -->
   <style>
-    :root {
-      --blue-dark:#041a33;
-      --blue:#0b4ea2;
-      --blue-light:#1677ff;
-      --yellow:#ffb703;
-      --card:#0f172a;
+    body {
+      margin:0;
+      font-family: 'Inter', sans-serif;
+      background:#020617;
+      color:#e5e7eb;
+      line-height:1.6;
     }
-    * { box-sizing:border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin:0; font-family:'Inter', 'Noto Sans SC', sans-serif; background:#020617; color:#e5e7eb; line-height: 1.6; }
-
-    /* Header Responsivo */
     header {
-      position:sticky; top:0; z-index:100;
+      position:sticky;
+      top:0;
       background:#ffffff;
-      color:#0f172a;
-      padding:12px 5%;
-      display:flex; justify-content:space-between; align-items:center;
+      color:#020617;
+      padding:14px 5%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
       box-shadow:0 4px 20px rgba(0,0,0,.08);
+      z-index:100;
     }
-    header strong { font-size: 1.1rem; white-space: nowrap; }
-    
-    .nav-container { display: flex; align-items: center; gap: 20px; }
-    header nav { display: flex; align-items: center; }
-    header nav a { margin-left:20px; text-decoration:none; color:#0f172a; font-weight:500; font-size: 0.9rem; cursor: pointer;}
-    .header-cta { background:var(--blue-light); color:#fff !important; padding:8px 16px; border-radius:8px; font-weight:600; }
-
-    /* Language Selector */
-    .lang-select {
-      padding: 6px 10px;
-      border-radius: 6px;
-      border: 1px solid #ddd;
-      font-size: 0.85rem;
-      background: #f8fafc;
-      color: #0f172a;
-      cursor: pointer;
+    header strong { font-size:1.1rem; }
+    nav a {
+      margin-left:20px;
+      text-decoration:none;
+      color:#020617;
+      font-weight:500;
     }
-
-    /* Hero Section */
-    .hero {
-      min-height:auto;
-      display:grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap:40px;
+    .cta {
+      background:#1677ff;
+      color:white;
+      padding:8px 16px;
+      border-radius:8px;
+      font-weight:600;
+    }
+    section {
       padding:80px 5%;
-      background: linear-gradient(135deg, var(--blue-dark), var(--blue), var(--blue-light));
+      max-width:1200px;
+      margin:auto;
+    }
+    h1 {
+      font-size:clamp(36px,5vw,56px);
+      line-height:1.1;
+      font-weight:900;
+      color:white;
+    }
+    h2 {
+      font-size:clamp(28px,4vw,42px);
+      margin-bottom:40px;
+      text-align:center;
+    }
+    .hero {
+      background:linear-gradient(135deg,#041a33,#0b4ea2,#1677ff);
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:40px;
       align-items:center;
     }
-    .badge {
-      display:inline-block; background:var(--yellow); color:#1f2937;
-      padding:6px 14px; border-radius:999px; font-size:11px; font-weight:700; letter-spacing:.04em;
-      margin-bottom:20px; text-transform: uppercase;
+    .hero p {
+      max-width:620px;
+      font-size:18px;
+      color:#e0e7ff;
     }
-    .hero h1 {
-      font-size: clamp(32px, 5vw, 56px);
-      line-height: 1.1; margin:0 0 24px; font-weight:900; color: #fff;
+    .btn {
+      display:inline-block;
+      margin-top:20px;
+      padding:14px 24px;
+      border-radius:10px;
+      font-weight:700;
+      text-decoration:none;
+      background:#ffb703;
+      color:#020617;
     }
-    .hero h1 span { color:var(--yellow); }
-    .hero p { font-size: clamp(16px, 2vw, 18px); max-width:620px; color:#e0e7ff; margin-bottom: 30px; }
-    
-    .hero-actions { display:flex; flex-wrap: wrap; gap:15px; }
-    .primary-btn { background:var(--yellow); color:#1f2937; padding:14px 24px; border-radius:10px; font-weight:700; text-decoration:none; text-align: center; transition: 0.3s; border: none; cursor: pointer; display: inline-block;}
-    .secondary-btn { border:2px solid #fff; color:#fff; padding:12px 22px; border-radius:10px; text-decoration:none; font-weight:600; text-align: center; transition: 0.3s; cursor: pointer; display: inline-block;}
-    .primary-btn:hover { transform: translateY(-2px); opacity: 0.9; }
-
-    .hero-image {
-      position:relative;
-      background:#020617;
-      border-radius:20px;
-      padding:8px;
-      box-shadow:0 30px 60px rgba(0,0,0,0.4);
-      max-width: 500px;
-      margin: 0 auto;
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
     }
-    .hero-image img { width:100%; border-radius:14px; display:block; height: auto; object-fit: cover; aspect-ratio: 1/1;}
-    .proof {
-      position:absolute; bottom:20px; left: -20px;
-      background:#ffffff; color:#020617;
-      padding:10px 15px; border-radius:12px;
-      display:flex; align-items:center; gap:10px;
-      box-shadow:0 15px 30px rgba(0,0,0,.2);
-      font-size:12px; font-weight: bold;
+    .card {
+      background:#0f172a;
+      padding:30px;
+      border-radius:15px;
+      border:1px solid rgba(255,255,255,.05);
     }
-
-    /* Stats */
-    .stats { display:flex; flex-wrap: wrap; gap:25px; margin-top:40px; }
-    .stat { display:flex; align-items:center; gap:10px; }
-    .icon { width:36px; height:36px; border-radius:50%; background:rgba(255,255,255,.15); display:flex; align-items:center; justify-content:center; font-size: 1.2rem; }
-    .stat strong { font-size: 1.1rem; }
-
-    /* Sections General */
-    section { padding:80px 5%; max-width:1200px; margin:auto; }
-    h2 { font-size: clamp(28px, 4vw, 42px); margin-bottom:40px; text-align:center; font-weight: 800; }
-    .cards { 
-      display:grid; 
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-      gap:25px; 
-    }
-    .card { 
-      background:var(--card); 
-      padding:30px; 
-      border-radius:15px; 
-      transition: 0.3s;
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-    .card:hover { transform: translateY(-5px); border-color: var(--blue-light); }
-    .card h3 { margin-top:0; color: var(--blue-light); margin-bottom: 15px; }
-
-    /* Contact Section */
-    .contact { text-align:center; background: #020617; border-top: 1px solid #1e293b; }
-    .contact p { margin-bottom: 30px; font-size: 1.1rem; color: #94a3b8; }
-
-    /* Footer */
-    footer { padding:40px 5%; text-align:center; color:#94a3b8; border-top: 1px solid #1e293b; }
-    footer a { color:#60a5fa; text-decoration:none; margin:0 10px; }
-
-    /* --- MEDIA QUERIES --- */
-    @media (max-width: 1024px) {
-      .hero { grid-template-columns: 1fr; text-align: center; padding-top: 60px; }
-      .hero-actions, .stats { justify-content: center; }
-      .hero p { margin-left: auto; margin-right: auto; }
-      .proof { left: 50%; transform: translateX(-50%); bottom: -20px; width: max-content; }
-    }
-
-    @media (max-width: 768px) {
-      header { padding: 12px 20px; flex-direction: column; gap: 10px; }
-      .nav-container { width: 100%; justify-content: center; flex-wrap: wrap;}
-      header nav a:not(.header-cta) { display: none; } 
-      
-      section { padding: 60px 20px; }
-      .hero { padding: 40px 20px; }
-      
-      .hero-actions .primary-btn, .hero-actions .secondary-btn { width: 100%; }
-      .stats { gap: 15px; justify-content: flex-start; }
-      .stat { width: 45%; } 
+    footer {
+      text-align:center;
+      padding:40px 5%;
+      color:#94a3b8;
+      border-top:1px solid #1e293b;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <strong>Giuseppe Musacchio</strong>
-  <div class="nav-container">
-    <select id="languageSelector" class="lang-select" onchange="changeLanguage(this.value)">
-      <option value="en">🇺🇸 English</option>
-      <option value="it">🇮🇹 Italiano</option>
-      <option value="zh">🇨🇳 中文</option>
-      <option value="es">🇪🇸 Español</option>
-      <option value="ru">🇷🇺 Русский</option>
-    </select>
-    <nav>
-      <a href="#about" data-i18n="nav_about">About</a>
-      <a href="#experience" data-i18n="nav_experience">Experience</a>
-      <a href="#achievements" data-i18n="nav_achievements">Achievements</a>
-      <a href="#contact" class="header-cta" data-i18n="nav_cta">Schedule Call</a>
-    </nav>
-  </div>
+  <nav>
+    <a href="#expertise">Expertise</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact" class="cta">Schedule Call</a>
+  </nav>
 </header>
 
 <section class="hero">
   <div>
-    <span class="badge" data-i18n="hero_badge">AI‑POWERED CPG SOLUTIONS LEADER</span>
-    <h1 data-i18n="hero_title">Transforming CPG Enterprises with <span>AI‑Driven Solutions</span></h1>
-    <p data-i18n="hero_desc">Senior Presales Leader specializing in Revenue Growth Management, Trade Promotion Management, and Retail Execution. Bridging cutting‑edge AI technology with strategic business outcomes for global CPG enterprises.</p>
-    <div class="hero-actions">
-      <a href="#contact" class="primary-btn" data-i18n="btn_primary">Schedule a Strategic Discussion →</a>
-      <a href="#achievements" class="secondary-btn" data-i18n="btn_secondary">View My Impact ↘</a>
-    </div>
-    <div class="stats">
-      <div class="stat"><div class="icon">🏆</div><div><strong>15+</strong><br/><small data-i18n="stat_exp">Years Experience</small></div></div>
-      <div class="stat"><div class="icon">🌍</div><div><strong data-i18n="stat_global">Global</strong><br/><small data-i18n="stat_reach">Enterprise Reach</small></div></div>
-      <div class="stat"><div class="icon">🤖</div><div><strong data-i18n="stat_ai">AI‑First</strong><br/><small data-i18n="stat_approach">Solution Approach</small></div></div>
-    </div>
+    <h1>Presales Leader Transforming CPG Enterprises with <span style="color:#ffb703">AI-Driven RGM & TPM Solutions</span></h1>
+    <p>
+      Senior Presales Leader specializing in <strong>Revenue Growth Management</strong>,
+      <strong>Trade Promotion Management</strong> and <strong>Retail Execution software</strong>.
+      I help global CPG organizations unlock profitable growth by connecting AI technology to real business outcomes.
+    </p>
+    <a href="#contact" class="btn">Schedule a Strategic Discussion</a>
   </div>
 
-  <div class="hero-image">
-    <img src="profile.jpg" alt="Giuseppe Musacchio" />
-    <div class="proof">
-      <span style="color:green">✔</span> 
-      <span data-i18n="proof_text">Proven Enterprise Leader</span>
-    </div>
+  <div>
+    <img src="profile.jpg"
+         alt="Giuseppe Musacchio – Presales Leader for AI-driven RGM and TPM solutions in CPG"
+         style="width:100%;border-radius:20px;">
   </div>
 </section>
 
-<section id="experience">
-  <h2 data-i18n="core_expertise">Core Expertise</h2>
+<section id="expertise">
+  <h2>Presales Expertise in AI, RGM & TPM for CPG</h2>
   <div class="cards">
     <div class="card">
-      <h3 data-i18n="card1_title">Revenue Growth Management</h3>
-      <p data-i18n="card1_desc">AI‑powered pricing, promotion optimization and scenario modeling tied directly to margin growth.</p>
+      <h3>Revenue Growth Management (RGM)</h3>
+      <p>AI-powered pricing, promotion optimization and scenario modeling directly tied to margin growth.</p>
     </div>
     <div class="card">
-      <h3 data-i18n="card2_title">Trade Promotion Management</h3>
-      <p data-i18n="card2_desc">Predictive TPM planning, forecasting accuracy and post‑event intelligence.</p>
+      <h3>Trade Promotion Management (TPM)</h3>
+      <p>Predictive TPM planning, forecasting accuracy and post-event analytics.</p>
     </div>
     <div class="card">
-      <h3 data-i18n="card3_title">Retail Execution</h3>
-      <p data-i18n="card3_desc">Next Best Action, AI recommendations and flawless execution from HQ to field.</p>
+      <h3>Retail Execution</h3>
+      <p>Next Best Action, AI recommendations and flawless execution from HQ to field.</p>
     </div>
   </div>
 </section>
 
-<section id="achievements">
-  <h2 data-i18n="achievements_title">From Vision to Victory</h2>
+<section id="impact">
+  <h2>Presales Impact in RGM, TPM and Retail Execution</h2>
   <div class="cards">
     <div class="card">
-      <h3 data-i18n="ach1_title">Strategic Solution Design</h3>
-      <p data-i18n="ach1_desc">End‑to‑end AI‑first architectures aligned to business maturity.</p>
+      <h3>Executive Engagement</h3>
+      <p>Trusted advisor to C-level, IT, Finance and Commercial leadership.</p>
     </div>
     <div class="card">
-      <h3 data-i18n="ach2_title">Executive Engagement</h3>
-      <p data-i18n="ach2_desc">Trusted advisor to C‑level, IT, Finance and Commercial leadership.</p>
+      <h3>Demo & RFP Excellence</h3>
+      <p>Story-driven demos and structured RFP responses that win complex enterprise deals.</p>
     </div>
     <div class="card">
-      <h3 data-i18n="ach3_title">Demo Excellence</h3>
-      <p data-i18n="ach3_desc">Story‑driven demos that convert complexity into confidence.</p>
-    </div>
-    <div class="card">
-      <h3 data-i18n="ach4_title">RFP Mastery</h3>
-      <p data-i18n="ach4_desc">Winning global RFPs through clarity, differentiation and structure.</p>
+      <h3>AI-First Solution Design</h3>
+      <p>End-to-end architectures aligned to business maturity and measurable ROI.</p>
     </div>
   </div>
 </section>
 
-<section id="contact" class="contact">
-  <h2 data-i18n="contact_title">Let’s Build What’s Next</h2>
-  <p data-i18n="contact_desc"> Enterprise customers and strategic partners — let’s explore how AI can accelerate your commercial strategy.</p>
-  <a class="primary-btn" href="https://calendly.com" target="_blank" data-i18n="contact_btn">Schedule a Discovery Call</a>
+<section id="contact">
+  <h2>Let’s Build What’s Next</h2>
+  <p style="text-align:center;max-width:700px;margin:auto">
+    Enterprise customers, recruiters and strategic partners — let’s explore how AI can accelerate your CPG commercial strategy.
+  </p>
+  <div style="text-align:center">
+    <a href="https://calendly.com" target="_blank" class="btn">Schedule a Discovery Call</a>
+  </div>
 </section>
 
 <footer>
-  <p data-i18n="footer_text">Driving profitable growth through AI‑powered commercial excellence.</p>
-  <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a> · <a href="#contact" data-i18n="footer_contact">Contact</a></p>
+  <p>Driving profitable growth through AI-powered commercial excellence.</p>
+  <p>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> ·
+    <a href="#contact">Contact</a>
+  </p>
 </footer>
-
-<script>
-  const translations = {
-    en: {
-      nav_about: "About",
-      nav_experience: "Experience",
-      nav_achievements: "Achievements",
-      nav_cta: "Schedule a Discovery Call",
-      hero_badge: "AI‑POWERED CPG SOLUTIONS LEADER",
-      hero_title: "Transforming CPG Enterprises with <span>AI‑Driven Solutions</span>",
-      hero_desc: "Senior Presales Leader specializing in Revenue Growth Management, Trade Promotion Management, and Retail Execution. Bridging cutting‑edge AI technology with strategic business outcomes for global CPG enterprises.",
-      btn_primary: "Schedule a Strategic Discussion →",
-      btn_secondary: "View My Impact ↘",
-      stat_exp: "Years Experience",
-      stat_global: "Global",
-      stat_reach: "Enterprise Reach",
-      stat_ai: "AI‑First",
-      stat_approach: "Solution Approach",
-      proof_text: "Proven Enterprise Leader",
-      core_expertise: "Core Expertise",
-      card1_title: "Revenue Growth Management",
-      card1_desc: "AI‑powered pricing, promotion optimization and scenario modeling tied directly to margin growth.",
-      card2_title: "Trade Promotion Management",
-      card2_desc: "Predictive TPM planning, forecasting accuracy and post‑event intelligence.",
-      card3_title: "Retail Execution",
-      card3_desc: "Next Best Action, AI recommendations and flawless execution from HQ to field.",
-      achievements_title: "From Vision to Victory",
-      ach1_title: "Strategic Solution Design",
-      ach1_desc: "End‑to‑end AI‑first architectures aligned to business maturity.",
-      ach2_title: "Executive Engagement",
-      ach2_desc: "Trusted advisor to C‑level, IT, Finance and Commercial leadership.",
-      ach3_title: "Demo Excellence",
-      ach3_desc: "Story‑driven demos that convert complexity into confidence.",
-      ach4_title: "RFP Mastery",
-      ach4_desc: "Winning global RFPs through clarity, differentiation and structure.",
-      contact_title: "Let’s Build What’s Next",
-      contact_desc: "Recruiters, enterprise customers and strategic partners — let’s explore how AI can accelerate your commercial strategy.",
-      contact_btn: "Schedule a Discovery Call",
-      footer_text: "Driving profitable growth through AI‑powered commercial excellence.",
-      footer_contact: "Contact"
-    },
-    it: {
-      nav_about: "Chi Sono",
-      nav_experience: "Esperienza",
-      nav_achievements: "Risultati",
-      nav_cta: "Prenota Chiamata",
-      hero_badge: "LEADER NELLE SOLUZIONI CPG AI-POWERED",
-      hero_title: "Trasformare il CPG con <span>Soluzioni AI</span>",
-      hero_desc: "Senior Presales Leader specializzato in Revenue Growth Management, Trade Promotion Management e Retail Execution. Unisco l'AI all'avanguardia con risultati di business strategici per imprese CPG globali.",
-      btn_primary: "Pianifica una Consulenza →",
-      btn_secondary: "Vedi i Risultati ↘",
-      stat_exp: "Anni di Esperienza",
-      stat_global: "Globale",
-      stat_reach: "Portata Enterprise",
-      stat_ai: "AI‑First",
-      stat_approach: "Approccio Soluzioni",
-      proof_text: "Enterprise Leader Certificato",
-      core_expertise: "Competenze Core",
-      card1_title: "Revenue Growth Management",
-      card1_desc: "Pricing guidato da AI, ottimizzazione delle promozioni e simulazione scenari per la crescita dei margini.",
-      card2_title: "Trade Promotion Management",
-      card2_desc: "Pianificazione TPM predittiva, precisione delle previsioni e analisi post-evento.",
-      card3_title: "Retail Execution",
-      card3_desc: "Next Best Action, raccomandazioni AI ed esecuzione impeccabile dalla sede al campo.",
-      achievements_title: "Dalla Visione ai Risultati",
-      ach1_title: "Strategic Solution Design",
-      ach1_desc: "Architetture AI-first end-to-end allineate alla maturità del business.",
-      ach2_title: "Executive Engagement",
-      ach2_desc: "Consulente di fiducia per C-level, IT, Finance e leadership commerciale.",
-      ach3_title: "Eccellenza nelle Demo",
-      ach3_desc: "Demo basate sullo storytelling che trasformano la complessità in fiducia.",
-      ach4_title: "RFP Mastery",
-      ach4_desc: "Vincitore di RFP globali grazie a chiarezza, differenziazione e struttura.",
-      contact_title: "Costruiamo il Futuro",
-      contact_desc: "Recruiter, clienti enterprise o partner — scopriamo come l'AI può accelerare la vostra strategia.",
-      contact_btn: "Prenota Chiamata Conoscitiva",
-      footer_text: "Guidare la crescita profittevole attraverso l'eccellenza commerciale AI-powered.",
-      footer_contact: "Contatti"
-    },
-    zh: {
-      nav_about: "关于",
-      nav_experience: "经验",
-      nav_achievements: "成就",
-      nav_cta: "预约咨询",
-      hero_badge: "AI 驱动的 CPG 解决方案领导者",
-      hero_title: "利用 <span>AI 驱动方案</span> 变革 CPG 企业",
-      hero_desc: "售前负责人，专注于收入增长管理 (RGM)、贸易促销管理 (TPM) 和零售执行。为全球 CPG 企业架起尖端 AI 技术与战略业务成果之间的桥梁。",
-      btn_primary: "安排战略讨论 →",
-      btn_secondary: "查看我的影响力 ↘",
-      stat_exp: "年经验",
-      stat_global: "全球",
-      stat_reach: "企业覆盖",
-      stat_ai: "AI 优先",
-      stat_approach: "解决方案",
-      proof_text: "成熟的企业领导者",
-      core_expertise: "核心专长",
-      card1_title: "收入增长管理 (RGM)",
-      card1_desc: "AI 驱动的定价、促销优化和直接关联利润增长的情景建模。",
-      card2_title: "贸易促销管理 (TPM)",
-      card2_desc: "预测性 TPM 规划、预测准确性和活动后智能分析。",
-      card3_title: "零售执行",
-      card3_desc: "下一步最佳行动 (NBA)、AI 推荐以及从总部到现场的完美执行。",
-      achievements_title: "从愿景到胜利",
-      ach1_title: "战略解决方案设计",
-      ach1_desc: "与业务成熟度相一致的端到端 AI 优先架构。",
-      ach2_title: "高管互动",
-      ach2_desc: "C 级高管、IT、财务和商业领导层值得信赖的顾问。",
-      ach3_title: "卓越演示",
-      ach3_desc: "以故事为驱动的演示，将复杂性转化为信心。",
-      ach4_title: "RFP 掌控",
-      ach4_desc: "通过清晰度、差异化和结构化赢得全球 RFP。",
-      contact_title: "共创未来",
-      contact_desc: "招聘人员、企业客户和战略合作伙伴 — 让我们探索 AI 如何加速您的商业战略。",
-      contact_btn: "预约探索性通话",
-      footer_text: "通过 AI 驱动的商业卓越推动盈利增长。",
-      footer_contact: "联系方式"
-    },
-    es: {
-      nav_about: "Acerca de",
-      nav_experience: "Experiencia",
-      nav_achievements: "Logros",
-      nav_cta: "Agendar Llamada",
-      hero_badge: "LÍDER EN SOLUCIONES CPG CON IA",
-      hero_title: "Transformando empresas de CPG con <span>Soluciones de IA</span>",
-      hero_desc: "Jefe de Preventa especializado en Gestión de Crecimiento de Ingresos (RGM), Gestión de Promociones Comerciales (TPM) y Ejecución Minorista. Uniendo tecnología de IA con resultados estratégicos de negocio.",
-      btn_primary: "Programar Discusión Estratégica →",
-      btn_secondary: "Ver Mi Impacto ↘",
-      stat_exp: "Años de Exp.",
-      stat_global: "Global",
-      stat_reach: "Alcance Empresarial",
-      stat_ai: "AI‑First",
-      stat_approach: "Enfoque de Solución",
-      proof_text: "Líder Empresarial Probado",
-      core_expertise: "Experiencia Principal",
-      card1_title: "Gestión de Crecimiento de Ingresos",
-      card1_desc: "Precios impulsados por IA, optimización de promociones y modelado de escenarios vinculados al crecimiento del margen.",
-      card2_title: "Gestión de Promociones Comerciales",
-      card2_desc: "Planificación predictiva de TPM, precisión en pronósticos e inteligencia post-evento.",
-      card3_title: "Ejecución Minorista",
-      card3_desc: "Next Best Action, recomendaciones de IA y ejecución impecable desde la sede hasta el campo.",
-      achievements_title: "De la Visión a la Victoria",
-      ach1_title: "Diseño de Solución Estratégica",
-      ach1_desc: "Arquitecturas end-to-end 'AI-first' alineadas con la madurez del negocio.",
-      ach2_title: "Compromiso Ejecutivo",
-      ach2_desc: "Asesor de confianza para líderes de nivel C, TI, Finanzas y Comercial.",
-      ach3_title: "Excelencia en Demostraciones",
-      ach3_desc: "Demos basadas en historias que convierten la complejidad en confianza.",
-      ach4_title: "Dominio de RFP",
-      ach4_desc: "Ganando RFPs globales a través de claridad, diferenciación y estructura.",
-      contact_title: "Construyamos el Futuro",
-      contact_desc: "Reclutadores, clientes empresariales y socios — exploremos cómo la IA puede acelerar su estrategia.",
-      contact_btn: "Agendar Llamada de Descubrimiento",
-      footer_text: "Impulsando el crecimiento rentable a través de la excelencia comercial con IA.",
-      footer_contact: "Contacto"
-    },
-    ru: {
-      nav_about: "Обо мне",
-      nav_experience: "Опыт",
-      nav_achievements: "Достижения",
-      nav_cta: "Заказать звонок",
-      hero_badge: "ЛИДЕР CPG РЕШЕНИЙ НА БАЗЕ ИИ",
-      hero_title: "Трансформация CPG предприятий с <span>ИИ-решениями</span>",
-      hero_desc: "Руководитель пресейл-направления, специализирующийся на RGM, TPM и Retail Execution. Объединяю передовые технологии ИИ со стратегическими бизнес-результатами для глобальных CPG компаний.",
-      btn_primary: "Запланировать обсуждение →",
-      btn_secondary: "Мои результаты ↘",
-      stat_exp: "Лет опыта",
-      stat_global: "Глобальный",
-      stat_reach: "Охват предприятий",
-      stat_ai: "AI‑First",
-      stat_approach: "Подход к решениям",
-      proof_text: "Проверенный лидер",
-      core_expertise: "Ключевые компетенции",
-      card1_title: "Revenue Growth Management",
-      card1_desc: "Ценообразование на базе ИИ, оптимизация промо и сценарное моделирование для роста маржи.",
-      card2_title: "Trade Promotion Management",
-      card2_desc: "Предиктивное планирование TPM, точность прогнозирования и пост-анализ.",
-      card3_title: "Retail Execution",
-      card3_desc: "Next Best Action, рекомендации ИИ и безупречное исполнение от штаб-квартиры до " + "полей" + ".",
-      achievements_title: "От видения к победе",
-      ach1_title: "Стратегический дизайн решений",
-      ach1_desc: "Сквозные AI-first архитектуры, соответствующие зрелости бизнеса.",
-      ach2_title: "Работа с топ-менеджментом",
-      ach2_desc: "Доверенный советник для C-level, IT, финансов и коммерческого руководства.",
-      ach3_title: "Мастерство демонстраций",
-      ach3_desc: "Сценарные демо, превращающие сложность в уверенность заказчика.",
-      ach4_title: "Победы в тендерах (RFP)",
-      ach4_desc: "Выигрыш глобальных RFP за счет ясности, дифференциации и структуры.",
-      contact_title: "Давайте строить будущее",
-      contact_desc: "Рекрутеры, корпоративные клиенты и партнеры — давайте обсудим, как ИИ ускорит вашу стратегию.",
-      contact_btn: "Записаться на звонок",
-      footer_text: "Драйвер прибыльного роста через коммерческое превосходство на базе ИИ.",
-      footer_contact: "Контакты"
-    }
-  };
-
-  function changeLanguage(lang) {
-    document.querySelectorAll('[data-i18n]').forEach(element => {
-      const key = element.getAttribute('data-i18n');
-      if(translations[lang][key]) {
-        element.innerHTML = translations[lang][key];
-      }
-    });
-    // Set HTML lang attribute for accessibility
-    document.documentElement.lang = lang;
-  }
-</script>
 
 </body>
 </html>
-
